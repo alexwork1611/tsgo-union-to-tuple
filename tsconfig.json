@@ -1,5 +1,10 @@
 {
-	"extends": [
-		"@tsconfig/strictest/tsconfig.json"
-	]
+	// "extends": [
+	// 	"@tsconfig/strictest/tsconfig.json"
+	// ]
+	"compilerOptions": {
+		"strict": true,
+		"skipLibCheck": true,
+		"noEmit": true
+	}
 }

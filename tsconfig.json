@@ -1,4 +1,5 @@
 {
+	// Uncomment to get an error on TSGO (tested at commit https://github.com/microsoft/typescript-go/commit/a88fef77f5a7663513a45ca0b1a431102638fbd2)
 	// "extends": [
 	// 	"@tsconfig/strictest/tsconfig.json"
 	// ]

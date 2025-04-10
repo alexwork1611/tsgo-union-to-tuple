@@ -1,11 +1,24 @@
 {
-	// Uncomment to get an error on TSGO (tested at commit https://github.com/microsoft/typescript-go/commit/a88fef77f5a7663513a45ca0b1a431102638fbd2)
-	// "extends": [
-	// 	"@tsconfig/strictest/tsconfig.json"
-	// ]
-	"compilerOptions": {
-		"strict": true,
-		"skipLibCheck": true,
-		"noEmit": true
-	}
+  "compilerOptions": {
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "isolatedModules": true,
+
+    "checkJs": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "2.0.0"
 }

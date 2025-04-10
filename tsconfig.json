@@ -17,7 +17,9 @@
     "checkJs": true,
 
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    "noEmit": true
   },
   "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "2.0.0"
